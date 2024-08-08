@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 def main():
     st.set_page_config(
         page_title="Home",
@@ -13,6 +14,7 @@ def main():
     st.image('drugi.jpeg', caption='User behaviour')
     st.image('trzeci.jpeg', caption='Cost data')
     st.image('czwarty.jpeg', caption='Missing values')
+
 
 if __name__ == '__main__':
     main()

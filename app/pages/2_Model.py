@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import numpy as np
 
 
 def load_model_from_pickle(filename='final_model.pkl'):
@@ -35,9 +36,6 @@ def add_code(code, language='python'):
     st.code(code, language=language)
 
 
-import numpy as np
-
-
 def get_most_certain_predictions(model, X_test):
     # Get probabilities for each class
 
@@ -67,7 +65,7 @@ def get_most_certain_predictions(model, X_test):
     return filtered_0, filtered_1
 
 
-def data_visualization_page_by_wojtek():
+def data_visualization_page():
     st.set_page_config(
         page_title="Model in action",
     )
@@ -90,4 +88,5 @@ def data_visualization_page_by_wojtek():
     add_write("Let us see in more details what parameters are important:")
     add_image('important.png')
 
-data_visualization_page_by_wojtek()
+
+data_visualization_page()
