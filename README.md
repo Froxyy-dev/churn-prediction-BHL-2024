@@ -2,7 +2,7 @@
 
 ## Intended project workflow
 
-![image](/home/mwiniarek/ml/churn-prediction-BHL-2024/project_workflow.jpg)
+![image](project_workflow.jpg)
 
 ## Dataset
 Cell2Cell Churn Dataset
