@@ -1,5 +1,9 @@
 # Customer churn prediction and reduction.
 
+## Project Slides
+
+Project slides created in a business style can be found in ```project slides.pdf``` file.
+
 ## Intended project workflow
 
 ![image](project_workflow.jpg)
